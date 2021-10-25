@@ -1,3 +1,3 @@
 # Type_of_paper
-Size of paper calculator
+Size of paper calculator.
 Wrote in italian.
