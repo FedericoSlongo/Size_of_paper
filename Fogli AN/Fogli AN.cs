@@ -14,6 +14,9 @@ namespace Fogli_AN
                 case 0:
                     Console.WriteLine($"A{A} {A0y} mm * {A0x} mm");
                     break;
+                case > 40:
+                    Console.WriteLine("Il valore è troppo basso");
+                    break;
                 default:
                     Atemp = Math.Pow(1.4142, A);
                     Console.WriteLine($"A{A} {(A0y / Atemp):000.000} mm * {(A0x / Atemp):000.000} mm");
